@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# ASP.NET ve C# dosyalarını öncelikli hale getir
+*.cs linguist-detectable=true
+*.cshtml linguist-detectable=true
+*.config linguist-detectable=true
+
+# JavaScript dosyalarını dil algısından çıkar
+*.js linguist-detectable=false
+*.ts linguist-detectable=false
+*.json linguist-detectable=false
