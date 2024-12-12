@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@await Component.InvokeAsync("_HeadComponentPartials")
+
+
+<body>
+    @await Component.InvokeAsync("_SpinnerComponentPartials")
+    
+
+    @await Component.InvokeAsync("_TopbarStartComponentPartials")
+   
+
+    @await Component.InvokeAsync("NavbarComponentPartials")
+
+    @RenderBody()
+    
+   
+    
+</body>
+@await Component.InvokeAsync("_ScriptComponentPartials")
+</html>
